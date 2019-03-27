@@ -6,7 +6,7 @@ Overload the generic method printArray of Fig. 20.3 so that it takes two additio
 
 A call to this method prints only the designated portion of the array. 
 
-Validate lowSubscript and highSubscript. If either is out of range, the overloaded printArray method should throw an InvalidSubscriptException; otherwise, printArray should return the number of elements printed. 
+Validate lowSubscript and highSubscript. If either is out of range, the overloaded printArray method should throw an InvalidSubscriptException (which you will have to define); otherwise, printArray should return the number of elements printed. 
 
 Then modify main to exercise both versions of printArray on arrays integerArray, doubleArray and characterArray. Test all capabilities of both versions of printArray.
 
